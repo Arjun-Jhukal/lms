@@ -1,8 +1,8 @@
 .landing-page-banner {
-	@apply bg-primary relative;
+	@apply relative;
 
 	.background-image-wrapper {
-		@apply absolute inset-0 z-[-1];
+		@apply absolute inset-0 z-[-1] bg-primary;
 	}
 
 	.lpb-content {
