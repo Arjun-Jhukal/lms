@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function LandingPageBannner() {
 	return (
-		<section className="landing-page-banner section-gap">
+		<section className="landing-page-banner">
 			<div className="container">
 				<div className="lb-content-wrapper relative md:grid grid-cols-2 items-end">
 					<div className="lpb-content md:max-w-[587px] col-span-1">

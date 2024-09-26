@@ -9,7 +9,9 @@
 		font-weight: 400;
 	}
 
-	a {
+	a,
+	a::before,
+	a::after {
 		@apply inline-block transition-all duration-300 ease-in-out;
 	}
 }
@@ -34,7 +36,14 @@
 	h5 {
 		@apply font-[600] text-[18px];
 	}
-	small {
+
+	svg,
+	path {
+		@apply transition-all ease-in-out duration-300;
+	}
+
+	small,
+	.sm-text {
 		@apply inline-block text-[14px] leading-[140%];
 	}
 
@@ -43,13 +52,7 @@
 	}
 
 	.btn-underlined {
-		color: var(--Secondary, #674eff);
-		font-family: Mukta;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 140%;
-		text-decoration-line: underline;
+		@apply text-secondary text-[16px] font-[600] leading-[140%] underline;
 	}
 
 	.section-gap {

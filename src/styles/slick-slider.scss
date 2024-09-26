@@ -1,0 +1,22 @@
+.area-slider {
+	margin: 0 -8px;
+	.category-item {
+		margin: 0 8px;
+	}
+}
+
+.slick-dots {
+	@apply mt-[40px];
+
+	li {
+		@apply w-3 h-3 rounded-[50%] bg-primary-100 cursor-pointer;
+
+		&.slick-active {
+			@apply bg-secondary;
+		}
+
+		* {
+			opacity: 0;
+		}
+	}
+}

@@ -17,11 +17,11 @@ export default function SinglePackage() {
 
 				<div className="pi-info">
 					<ul>
-						<li>
+						<li className="flex justify-between items-center">
 							<small>Instructor:</small>
 							<small>Anushka Shrestha</small>
 						</li>
-						<li>
+						<li className="flex justify-between items-center">
 							<small>Package:</small>
 							<small>शिक्षक सेवा आयोग</small>
 						</li>

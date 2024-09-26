@@ -1,0 +1,29 @@
+.popular-listing {
+	&.section-padding-y {
+		background-color: #efeff6;
+	}
+
+	.package-list {
+		> div {
+			&:not(:last-child) {
+				.package-item {
+					@apply mb-8;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.popular-listing {
+		.package-list {
+			> div {
+				&:not(:last-child) {
+					.package-item {
+						@apply mb-0;
+					}
+				}
+			}
+		}
+	}
+}

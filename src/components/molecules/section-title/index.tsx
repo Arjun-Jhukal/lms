@@ -3,7 +3,7 @@ import React from "react";
 
 export default function SectionTitle() {
 	return (
-		<div className="section-title mb-[40px] flex justify-between items-center">
+		<div className="section-title mb-[40px] flex justify-between items-center flex-wrap gap-y-3">
 			<div className="title ">
 				<h2 className=" mb-1">Our Popular Packages</h2>
 				<p>
