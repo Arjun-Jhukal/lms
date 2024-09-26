@@ -43,6 +43,16 @@ export default function Home() {
 				</div>
 			</section>
 
+			<section
+				className="section-padding-y section-gap"
+				style={{
+					background: "url(/bg-black.png) #33333D no-repeat center/cover",
+				}}>
+				<div className="container">
+					<SectionTitle />
+				</div>
+			</section>
+
 			<section className="popular-listing section-gap ">
 				<div className="container">
 					<SectionTitle />
