@@ -1,6 +1,6 @@
 import Footer from "@/components/templates/footer";
 import Header from "@/components/templates/header";
-import React from "react";
+import "./styles.scss";
 
 export default function MainLayout({
 	children,

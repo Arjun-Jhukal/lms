@@ -1,0 +1,25 @@
+.landing-page-banner {
+	background: url(/placeholder-01.png) no-repeat center/cover;
+	@apply bg-primary relative;
+
+	&::before {
+		content: "";
+		@apply absolute inset-0 bg-primary z-[-1];
+	}
+	.lpb-content {
+		@apply py-[60px] lg:py-[150px];
+
+		h1,
+		p {
+			@apply mb-6;
+		}
+		p {
+			@apply lg:text-[20px] leading-[28px];
+		}
+	}
+
+	.text-box {
+		border-radius: 28px 28px 28px 0px;
+		background: rgba(255, 255, 255, 0.2);
+	}
+}

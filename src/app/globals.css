@@ -8,4 +8,54 @@
 		font-size: 16px;
 		font-weight: 400;
 	}
+
+	a {
+		@apply inline-block transition-all duration-300 ease-in-out;
+	}
+}
+
+@layer utilities {
+	h1 {
+		@apply text-[32px] font-[600] lg:text-[40px] lg:leading-[120%];
+	}
+
+	h2 {
+		@apply font-[600] lg:text-[32px] lg:leading-[140%];
+	}
+
+	h3 {
+		@apply font-[600] lg:text-[24px] lg:leading-[120%];
+	}
+
+	h4 {
+		@apply font-[600] lg:text-[20px];
+	}
+
+	h5 {
+		@apply font-[600] text-[18px];
+	}
+	small {
+		@apply inline-block text-[14px] leading-[140%];
+	}
+
+	.btn-secondary {
+		@apply bg-secondary font-[700] leading-[140%] text-white py-3 px-10 rounded-[4px] hover:opacity-70;
+	}
+
+	.btn-underlined {
+		color: var(--Secondary, #674eff);
+		font-family: Mukta;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 140%;
+		text-decoration-line: underline;
+	}
+
+	.section-gap {
+		@apply mb-[60px] md:mb-[80px];
+	}
+	.section-padding-y {
+		@apply py-[60px] md:py-[80px];
+	}
 }

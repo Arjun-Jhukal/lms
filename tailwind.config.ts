@@ -24,11 +24,16 @@ const config: Config = {
 			},
 			colors: {
 				primary: {
-					DEFAULT: "##33333D",
+					DEFAULT: "#33333D",
 				},
 				secondary: {
 					DEFAULT: "#674EFF",
 				},
+			},
+			aspectRatio: {
+				bannerImage: "768 / 513",
+				packageLandscape: "287 / 153",
+				packagePortrait: "120 / 174",
 			},
 		},
 	},
