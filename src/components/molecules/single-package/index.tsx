@@ -7,7 +7,13 @@ export default function SinglePackage() {
 		<div className="package-item">
 			<div className="pi-image relative aspect-packageLandscape">
 				<Link href={"/"} className="block">
-					<Image src={"/placeholder-03.png"} layout="fill" alt="" />
+					<Image
+						src={"/placeholder-03.png"}
+						layout="fill"
+						objectFit="contain"
+						alt=""
+						priority
+					/>
 				</Link>
 			</div>
 			<div className="pi-content">
