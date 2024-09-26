@@ -1,11 +1,10 @@
 .landing-page-banner {
-	background: url(/placeholder-01.png) no-repeat center/cover;
 	@apply bg-primary relative;
 
-	&::before {
-		content: "";
-		@apply absolute inset-0 bg-primary z-[-1];
+	.background-image-wrapper {
+		@apply absolute inset-0 z-[-1];
 	}
+
 	.lpb-content {
 		@apply py-[60px] lg:py-[150px];
 

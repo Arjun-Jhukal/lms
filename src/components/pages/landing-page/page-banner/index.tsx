@@ -4,7 +4,17 @@ import Link from "next/link";
 
 export default function LandingPageBannner() {
 	return (
-		<section className="landing-page-banner">
+		<section className="landing-page-banner relative">
+			<div className="background-image-wrapper">
+				<Image
+					src="/placeholder-01.png"
+					alt="Background"
+					layout="fill"
+					objectFit="cover"
+					priority
+					className="background-image"
+				/>
+			</div>
 			<div className="container">
 				<div className="lb-content-wrapper relative md:grid grid-cols-2 items-end">
 					<div className="lpb-content md:max-w-[587px] col-span-1">
