@@ -1,0 +1,14 @@
+.footer {
+	.footer-link-single {
+		ul {
+			li {
+				&:not(:last-child) {
+					@apply mb-2;
+				}
+				a {
+					@apply hover:text-secondary;
+				}
+			}
+		}
+	}
+}

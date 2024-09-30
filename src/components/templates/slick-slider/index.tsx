@@ -6,7 +6,11 @@ import Slider from "react-slick";
 import CategorySingle from "@/components/molecules/category-single";
 import "@/styles/slick-slider.scss";
 
-export default function SlickSlider() {
+export default function SlickSlider({
+	children,
+}: {
+	children: React.ReactElement;
+}) {
 	const dotsRef = React.useRef(null);
 
 	const setting = {

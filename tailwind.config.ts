@@ -32,9 +32,11 @@ const config: Config = {
 				},
 			},
 			aspectRatio: {
+				headerLogo: "183 / 62",
 				bannerImage: "768 / 513",
 				packageLandscape: "287 / 153",
 				packagePortrait: "120 / 174",
+				reviewStar: "128 / 24",
 			},
 		},
 	},

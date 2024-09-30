@@ -47,6 +47,10 @@
 		@apply inline-block text-[14px] leading-[140%];
 	}
 
+	.btn-outlined {
+		@apply py-2 px-9 border-[2px] border-secondary border-solid rounded-[4px] font-[700] text-secondary hover:bg-secondary hover:text-white;
+	}
+
 	.btn-secondary {
 		@apply bg-secondary font-[700] leading-[140%] text-white py-3 px-10 rounded-[4px] hover:opacity-70;
 	}

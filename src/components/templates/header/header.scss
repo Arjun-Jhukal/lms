@@ -1,0 +1,31 @@
+.header {
+	.header-menu-wrapper {
+		.primary-menu {
+			li {
+				a {
+					@apply py-4 relative;
+
+					&::before {
+						content: "";
+						@apply absolute bottom-0 left-0 right-0  bg-secondary h-1 opacity-0 invisible transition-all duration-300 ease-in-out;
+					}
+				}
+
+				&:hover,
+				&.active {
+					a {
+						&::before {
+							opacity: 1;
+							visibility: visible;
+						}
+					}
+				}
+				&.highlighted {
+					a {
+						color: #e604ca;
+					}
+				}
+			}
+		}
+	}
+}

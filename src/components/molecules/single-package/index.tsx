@@ -12,7 +12,6 @@ export default function SinglePackage() {
 						layout="fill"
 						objectFit="contain"
 						alt=""
-						priority
 					/>
 				</Link>
 			</div>
@@ -25,7 +24,7 @@ export default function SinglePackage() {
 					<ul>
 						<li className="flex justify-between items-center">
 							<small>Instructor:</small>
-							<small>Anushka Shrestha</small>
+							<small>Rosy Karki</small>
 						</li>
 						<li className="flex justify-between items-center">
 							<small>Package:</small>

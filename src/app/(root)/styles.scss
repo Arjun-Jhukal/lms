@@ -94,3 +94,27 @@
 		}
 	}
 }
+
+.features {
+	.feature-list {
+		> div {
+			&:not(:last-child) {
+				.feature-item {
+					@apply mb-8 sm:mb-0;
+				}
+			}
+		}
+	}
+}
+
+.ebooks {
+	.ebook-list {
+		> div {
+			&:not(:last-child) {
+				.single-package-v2 {
+					@apply mb-8 md:mb-0;
+				}
+			}
+		}
+	}
+}
